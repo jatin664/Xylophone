@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/cKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@color/red" />
+
+    <Button
+        android:id="@+id/dKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@color/orange" />
+
+    <Button
+        android:id="@+id/eKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="@color/yellow" />
+
+    <Button
+        android:id="@+id/fKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@color/turquoise" />
+
+    <Button
+        android:id="@+id/gKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:background="@color/green" />
+
+    <Button
+        android:id="@+id/aKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:background="@color/blue" />
+
+    <Button
+        android:id="@+id/bKey"
+        style="@style/KeyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_weight="1"
+        android:background="@color/purple" />
+</LinearLayout>
